@@ -1,4 +1,4 @@
-                    //common string methods
+//common string methods
 
 //let email ='mario@thenetninja.co.uk'
 
@@ -20,7 +20,7 @@
 
 //console.log (radius, pi);
 
-                  //math operatirs +. -. * / ** %
+//math operatirs +. -. * / ** %
 
 //console.log(10 / 2);
 //let result = radius % 3;
@@ -48,12 +48,12 @@
 //const author = 'Mario';
 //const likes = 30;
 
-                  //concatenation way
+//concatenation way
 
 //let result = ' the blog called' + title + 'by ' + author ' has ' + likes + 'likes';
 //console.log(result);
 
-                    //template way 
+//template way 
 //let result = `the blog called ${title} by ${author} has ${likes} likes`;
 //console.log(result);
 
@@ -96,7 +96,7 @@
 //console.log(age, age + 3, 'the age is ${age}');
 
 
-                        //booleans and comparisons
+//booleans and comparisons
 
 //console.log(true, false, "true", "false");
 
@@ -108,7 +108,7 @@
 //let result = names.includes('luigi');
 //console.log(result);
 
-                          //comparsion operators
+//comparsion operators
 
 //let age = 25;
 //console.log(age == 25);
@@ -119,7 +119,7 @@
 //let name = 'shaun';
 //console.log(name == 'shaun');
 
-                              //type conversion
+//type conversion
 //let score  = '100';
 
 //score = Number(score);
@@ -133,11 +133,11 @@
 //console.log(result, typeof result);
 
 
-                                  // for loops 
+// for loops 
 
 //for(let i = 0; i < 5; i++){
 //  console.log('in loop:', i);
-  
+
 //}
 
 //console.log('loop finished');
@@ -145,13 +145,13 @@
 //const names = ['shaun', 'mario', 'luigi'];
 
 //for( let i = 0; i < names.length; i++){
-  //console.log(names[i]);
- // let html = `<div>${names[i]} </div>`;
-  //console.log(html);
+//console.log(names[i]);
+// let html = `<div>${names[i]} </div>`;
+//console.log(html);
 //}
 
-                              //while loops
-const names = ['shaun', 'mario', 'luigi'];
+//while loops
+//const names = ['shaun', 'mario', 'luigi'];
 //let i = 0;
 //while( i < 5){
 //  console.log('in loop: ', i);
@@ -163,40 +163,105 @@ const names = ['shaun', 'mario', 'luigi'];
 // console.log(names[i]);
 //  i++;
 //}
-                                 //while loops
+//while loops
 //let i = 5;
 //do(
- // console.log('val of i is: ', i);
- // i++;
+// console.log('val of i is: ', i);
+// i++;
 //} while(i < 5);
 
-                                // if statements
+// if statements
 
-const age = 25;
+//const age = 25;
 
-if(age > 20 ){
-  console.log('you are over 20 years old');
+//if(age > 20 ){
+//  console.log('you are over 20 years old');
+//}
+
+//const ninjas = ['shaun','ryu', 'chun-li', 'yoshi'];
+
+//if(ninjas.length > 3){
+//  console.log("that's a lot of ninjas");
+//}
+//logical operators 
+//const password = 'password1234';
+//if(password.length >= 12 && password.includes('@')){
+// console.log('that password is mighty strong');
+//}else if(password.length >= 8 || password.includes('@')){
+//  console.log('that password is strong enough! ');
+//}else{
+//  console.log('that password is not strong enough! ');
+//}
+
+                                  //logical NOT (!)
+//let user = false;
+//if(!user){
+//  console.log('you must be logged in to continue');
+//}
+
+//console.log(true);
+//console.log(false);
+
+
+                                //breaks and continue
+
+//const scores = [50, 25, 0, 30, 100, 20, 10];
+
+//for(let i = 0; i < scores.length; i++){
+
+//  if(scores [i] === 0)
+// continue;
+//}
+
+
+// console.log('your score: ', scores[i]);
+
+// if (scores[i]) === 100{
+//   console.log('congrats you got the top score');
+//  break;
+// }
+
+//}
+
+                            //switch statements 
+const grade = 'D';
+switch (grade) {
+  case 'A':
+    console.log('you got an A');
+    break;
+  case 'B':
+    console.log('you got an B');
+     break;
+  case 'C':
+    console.log('you got an C');
+     break;
+  case 'D':
+    console.log('you got an D');
+     break;
+  case 'E':
+    console.log('you got an E');
+     break;
+  default:
+     console.log('not a valid grade');
 }
+                      //variables & block scope
+const age = 30;
 
-const ninjas = ['shaun','ryu', 'chun-li', 'yoshi'];
-
-if(ninjas.length > 3){
-  console.log("that's a lot of ninjas");
+if(true){
+const  age= 40;
+  const name = 'shaun';
+  
+  console.log('outside code block: ', age, name);
+  const(true){
+    console.log('inside 2nd code block: ', age);
+  }
 }
-                            //logical operators 
-const password = 'password1234';
-if(password.length >= 12 && password.includes('@')){
-  console.log('that password is mighty strong');
-}else if(password.length >= 8 || password.includes('@')){
-  console.log('that password is strong enough! ');
-}else{
-   console.log('that password is not strong enough! ');
-}
+console.log('outside code block: ', age, name);
 
-                          //logical NOT 
 
-if(condition){
+// function 
+
+
+const speak = function(){
   
 }
-
-//33min left    
