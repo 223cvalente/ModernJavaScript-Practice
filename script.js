@@ -245,23 +245,36 @@ switch (grade) {
      console.log('not a valid grade');
 }
                       //variables & block scope
-const age = 30;
+//const age = 30;
 
-if(true){
-const  age= 40;
-  const name = 'shaun';
+//if(true){
+//const  age= 40;
+ // const name = 'shaun';
   
-  console.log('outside code block: ', age, name);
-  const(true){
-    console.log('inside 2nd code block: ', age);
-  }
-}
-console.log('outside code block: ', age, name);
+ // console.log('outside code block: ', age, name);
+ // const(true){
+//    console.log('inside 2nd code block: ', age);
+ // }
+//}
+//console.log('outside code block: ', age, name);
 
 
 // function 
+//return values
+
+//const speak = function(name = 'luigi', time = 'night'){
+//  console.log(`good ${time} ${name}`);
+//};
+
+//const calcArea = function(radius){
+//  return  3.14 * radius **2;
+//}
+//arrow function 
+//const calcArea = radius => 3.14 * radius **2;
 
 
-const speak = function(){
-  
-}
+//const area = calcArea(5);
+//console.log('area is: ', area);
+
+
+//25 min in 4th video
