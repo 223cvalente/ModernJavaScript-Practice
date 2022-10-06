@@ -224,26 +224,26 @@
 //}
 
                             //switch statements 
-const grade = 'D';
-switch (grade) {
-  case 'A':
-    console.log('you got an A');
-    break;
-  case 'B':
-    console.log('you got an B');
-     break;
-  case 'C':
-    console.log('you got an C');
-     break;
-  case 'D':
-    console.log('you got an D');
-     break;
-  case 'E':
-    console.log('you got an E');
-     break;
-  default:
-     console.log('not a valid grade');
-}
+//const grade = 'D';
+//switch (grade) {
+ // case 'A':
+  //  console.log('you got an A');
+ //   break;
+ // case 'B':
+ //   console.log('you got an B');
+ //    break;
+ // case 'C':
+ //   console.log('you got an C');
+//    break;
+ // case 'D':
+ ///   console.log('you got an D');
+//     break;
+ // case 'E':
+  //  console.log('you got an E');
+  //   break;
+//  default:
+ //    console.log('not a valid grade');
+//}
                       //variables & block scope
 //const age = 30;
 
@@ -259,8 +259,8 @@ switch (grade) {
 //console.log('outside code block: ', age, name);
 
 
-// function 
-//return values
+                                    // function 
+                              //return values
 
 //const speak = function(name = 'luigi', time = 'night'){
 //  console.log(`good ${time} ${name}`);
@@ -276,5 +276,63 @@ switch (grade) {
 //const area = calcArea(5);
 //console.log('area is: ', area);
 
+//const blogs = [
+//  {title: 'why mac and cheese', likes:30};
+//{title: '10 things to make '}
+//]
 
-//25 min in 4th video
+//let user = {
+//  name: 'crystal',
+///  age: 30,
+//  email: 'crystal@gmail.com',
+//  location: 'berlin',
+////  blogs: [' why mac and cheese'],
+// login: function(){
+///  console.log('the user logged in');
+//},
+//logout:function(){
+//  console.log('the user logged out');
+//}
+//};
+//logBlogs: function(){
+//  console.log(this.blogs);
+//  console.log('this user has written the following blogs');
+ // this.blogs.forEach(blog => {
+ //   console.log(blog);
+
+ // })
+//}
+//};
+// user.logBlogs();
+//console.log(this);
+
+  //user.login();
+//user.logout();
+//const name = 'mario';
+//name.toUpperCase();
+
+//console.log(user.age);
+//console.log(user['email']);
+//user['name'] = 'chun-li';
+
+                                      //math object 
+
+console.log(Math);
+console.log(Math.PI);
+
+const area = 7.7;
+console.log(Math.round(area));
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
+console.log(Math.trunc(area));
+//floor rounds it to the lower 
+
+
+                                                //random numbers 
+
+const random = Math.random();
+console.log(random);
+console.log(Math.round(random * 100));
+
+let scoreOne = 50;
+let scoreTwo = scoreOne;
