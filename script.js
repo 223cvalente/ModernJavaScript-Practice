@@ -317,22 +317,88 @@
 
                                       //math object 
 
-console.log(Math);
-console.log(Math.PI);
+//console.log(Math);
+//console.log(Math.PI);
 
-const area = 7.7;
-console.log(Math.round(area));
-console.log(Math.floor(area));
-console.log(Math.ceil(area));
-console.log(Math.trunc(area));
+//const area = 7.7;
+//console.log(Math.round(area));
+///console.log(Math.floor(area));
+//console.log(Math.ceil(area));
+//console.log(Math.trunc(area));
 //floor rounds it to the lower 
 
 
                                                 //random numbers 
 
-const random = Math.random();
-console.log(random);
-console.log(Math.round(random * 100));
+//const random = Math.random();
+//console.log(random);
+//console.log(Math.round(random * 100));
 
-let scoreOne = 50;
-let scoreTwo = scoreOne;
+//let scoreOne = 50;
+//let scoreTwo = scoreOne;
+
+
+//DOM
+
+//const para = document.querySelector('body > h1');
+//console.log(para);
+
+//const paras = document.querySelectorAll('p');
+//const errors = document.querySelectorAll('.error');
+//console.log(errors);
+
+                                      // element by id
+// const title = document.getElementById('page-title');
+// console.log(title);
+
+//                                       // elements by class name
+// const errors = document.getElementsByClassName('.error');
+// console.log(errors);
+// console.log(errors[0]);
+
+
+                                      // elements by tag name
+
+// const paras = document.getElementsByTagName('p');
+// console.log(paras);
+
+// const para = document.querySelector('p');
+// //console.log(para.innerText);
+// //para.innerText = 'ninjas are awesome';
+
+// // const paras = document.querySelectorAll('p');
+// // paras.forEach(para => {
+// //   console.log(para.innerText);
+// //   para.innerText += 'new text';
+// // });
+//style of element 
+// const content = document.querySelector('.content');
+// const people = ['mario', 'luigi', ' yoshi'];
+// people.forEach(person => {
+//   content.innerHTML += `<p>${person} </p>`;
+// });
+
+
+// const link = document.querySelector('a');
+
+// console.log(link.getAttribute('href'));
+// link.setAttribute('href', "https://www.theninja.co.uk");
+// link.innerText = 'theNet ';
+// const mssg = document.querySelector('p');
+// console.log(mssg.getAttribute('class'));
+// mssg.setAttribute('class', 'success');
+// mssg.setAttribute('style', 'color: green;');
+
+//style tag
+
+const title = document.querySelector('h1');
+//title.setAttribute('style', 'margin: 50px;');
+
+console.log(title.style);
+console.log(title.style.color);
+title.style.margin = '50px;
+title.style.color = 'crimson;
+title.style.fontSize = '60px';
+title.style.margin = '';
+
+
