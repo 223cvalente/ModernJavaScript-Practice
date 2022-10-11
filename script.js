@@ -193,7 +193,7 @@
 //  console.log('that password is not strong enough! ');
 //}
 
-                                  //logical NOT (!)
+//logical NOT (!)
 //let user = false;
 //if(!user){
 //  console.log('you must be logged in to continue');
@@ -203,7 +203,7 @@
 //console.log(false);
 
 
-                                //breaks and continue
+//breaks and continue
 
 //const scores = [50, 25, 0, 30, 100, 20, 10];
 
@@ -223,44 +223,44 @@
 
 //}
 
-                            //switch statements 
+//switch statements 
 //const grade = 'D';
 //switch (grade) {
- // case 'A':
-  //  console.log('you got an A');
- //   break;
- // case 'B':
- //   console.log('you got an B');
- //    break;
- // case 'C':
- //   console.log('you got an C');
+// case 'A':
+//  console.log('you got an A');
+//   break;
+// case 'B':
+//   console.log('you got an B');
 //    break;
- // case 'D':
- ///   console.log('you got an D');
+// case 'C':
+//   console.log('you got an C');
+//    break;
+// case 'D':
+///   console.log('you got an D');
 //     break;
- // case 'E':
-  //  console.log('you got an E');
-  //   break;
+// case 'E':
+//  console.log('you got an E');
+//   break;
 //  default:
- //    console.log('not a valid grade');
+//    console.log('not a valid grade');
 //}
-                      //variables & block scope
+//variables & block scope
 //const age = 30;
 
 //if(true){
 //const  age= 40;
- // const name = 'shaun';
-  
- // console.log('outside code block: ', age, name);
- // const(true){
+// const name = 'shaun';
+
+// console.log('outside code block: ', age, name);
+// const(true){
 //    console.log('inside 2nd code block: ', age);
- // }
+// }
 //}
 //console.log('outside code block: ', age, name);
 
 
-                                    // function 
-                              //return values
+// function 
+//return values
 
 //const speak = function(name = 'luigi', time = 'night'){
 //  console.log(`good ${time} ${name}`);
@@ -297,16 +297,16 @@
 //logBlogs: function(){
 //  console.log(this.blogs);
 //  console.log('this user has written the following blogs');
- // this.blogs.forEach(blog => {
- //   console.log(blog);
+// this.blogs.forEach(blog => {
+//   console.log(blog);
 
- // })
+// })
 //}
 //};
 // user.logBlogs();
 //console.log(this);
 
-  //user.login();
+//user.login();
 //user.logout();
 //const name = 'mario';
 //name.toUpperCase();
@@ -315,7 +315,7 @@
 //console.log(user['email']);
 //user['name'] = 'chun-li';
 
-                                      //math object 
+//math object 
 
 //console.log(Math);
 //console.log(Math.PI);
@@ -328,7 +328,7 @@
 //floor rounds it to the lower 
 
 
-                                                //random numbers 
+//random numbers 
 
 //const random = Math.random();
 //console.log(random);
@@ -347,7 +347,7 @@
 //const errors = document.querySelectorAll('.error');
 //console.log(errors);
 
-                                      // element by id
+// element by id
 // const title = document.getElementById('page-title');
 // console.log(title);
 
@@ -357,7 +357,7 @@
 // console.log(errors[0]);
 
 
-                                      // elements by tag name
+// elements by tag name
 
 // const paras = document.getElementsByTagName('p');
 // console.log(paras);
@@ -389,16 +389,25 @@
 // mssg.setAttribute('class', 'success');
 // mssg.setAttribute('style', 'color: green;');
 
-//style tag
+// //style tag
+// const title = document.querySelector('h1');
+// //title.setAttribute('style', 'margin: 50px;');
+// // 
+// console.log(title.style);
+// console.log(title.style.color);
+// title.style.margin = '50px;
+// title.style.color = 'crimson;
+// title.style.fontSize = '60px';
+// title.style.margin = '';
 
-const title = document.querySelector('h1');
-//title.setAttribute('style', 'margin: 50px;');
 
-console.log(title.style);
-console.log(title.style.color);
-title.style.margin = '50px;
-title.style.color = 'crimson;
-title.style.fontSize = '60px';
-title.style.margin = '';
+// const content = document.querySelector('p');
+// console.log(content.classList);
+// content.classList.add('error');
+// content.classList.remove('error');
+// // content.classList.add('success');
 
-
+// const paras = document.querySelectorAll('p');
+// paras.forEach(p => {
+//   console.log(p.innerText);
+// })
